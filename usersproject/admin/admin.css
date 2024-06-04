@@ -31,7 +31,7 @@ h1 {
 }
 
 #add-product-form button {
-    background-color: #4CAF50;
+    background-color: #7c3fb5;
     color: white;
     border: none;
     padding: 10px 20px;
@@ -41,5 +41,38 @@ h1 {
 }
 
 #add-product-form button:hover {
-    background-color: #45a049;
+    background-color: #945fc5;
+}
+.back-to-products {
+    position: absolute;
+    top: 20px;
+    right: 145px;
+    background-color: #7c3fb5;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    text-decoration: none;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.back-to-user {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background-color: #7c3fb5;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    text-decoration: none;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.back-to-user:hover {
+    background-color: #945fc5;
 }
